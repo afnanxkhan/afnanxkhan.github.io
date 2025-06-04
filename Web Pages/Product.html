@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechnHub</title>
+    <link rel="stylesheet" href="/Design css/Product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Techn<span>Hub</span></h1>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/Web Pages/Shopping Cart.html">Shopping Cart</a></li>
+                    <li><a href="/Web Pages/AboutUs.html">About Us</a></li>
+                    <li><a href="/Web Pages/Contact Us.html">Contact Us</a></li>
+                    <li><a href="/Web Pages/Product.html" class="active">Products</a></li>
+                    <li><a href="/Web Pages/Testimonials.html">Testimonials</a></li>
+                    <li><a href="/Web Pages/Help Center.html">Help Center</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="/Web Pages/Shopping Cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Products</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>Our Premium Tech Collection</h1>
+            <p>Discover the latest and greatest in technology</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-toolbar">
+                <div class="toolbar-left">
+                    <div class="view-options">
+                        <button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
+                        <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
+                    </div>
+                    <p class="showing-results">Showing 1-8 products</p>
+                </div>
+                <div class="toolbar-right">
+
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="../images/macbook pro.jpg" alt="MacBook Pro">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>MacBook Pro 14"</h3>
+                        <div class="product-price">$1,999.00</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(24)</span>
+                        </div>
+                        <button class="btn add-to-cart" 
+                                data-id="mbp14-2023" 
+                                data-name="MacBook Pro 14\"" 
+                                data-price="1999.00" 
+                                data-image="../images/macbook pro.jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/iphone 16.jpg" alt="iPhone 16 Pro">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPhone 16 Pro</h3>
+                        <div class="product-price">$999.00</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="iphone16-pro"
+                                data-name="iPhone 16 Pro"
+                                data-price="999.00"
+                                data-image="../images/iphone 16.jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-image">
+                        <img src="../images/airpod.png" alt="AirPods Pro">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>AirPods Pro (2nd Gen)</h3>
+                        <div class="product-price">
+                            <span class="original-price">$249.00</span>
+                            <span class="sale-price">$199.00</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(156)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="airpods-pro2"
+                                data-name="AirPods Pro (2nd Gen)"
+                                data-price="199.00"
+                                data-image="../images/airpod.png">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/ipad pro .jpg" alt="iPad Pro">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPad Pro 12.9"</h3>
+                        <div class="product-price">$1,099.00</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(37)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="ipadpro-12.9"
+                                data-name="iPad Pro 12.9\""
+                                data-price="1099.00"
+                                data-image="../images/ipad pro .jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/apple watch series 8.jpg" alt="Apple Watch">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Apple Watch Series 8</h3>
+                        <div class="product-price">$399.00</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(89)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="applewatch-8"
+                                data-name="Apple Watch Series 8"
+                                data-price="399.00"
+                                data-image="../images/apple watch series 8.jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="../images/mac mini m2.jpg" alt="Mac Mini">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Mac Mini M2</h3>
+                        <div class="product-price">$599.00</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(14)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="macmini-m2"
+                                data-name="Mac Mini M2"
+                                data-price="599.00"
+                                data-image="../images/mac mini m2.jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/moritz-kindler-xb0lxn8hEEE-unsplash.jpg" alt="Magic Keyboard">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Magic Keyboard</h3>
+                        <div class="product-price">$99.00</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(67)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="magic-keyboard"
+                                data-name="Magic Keyboard"
+                                data-price="99.00"
+                                data-image="../images/moritz-kindler-xb0lxn8hEEE-unsplash.jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-image">
+                        <img src="../images/ryan-putra-j4PqlNVZ4Bc-unsplash.jpg" alt="Magic Mouse">
+                        <div class="quick-view">Quick View</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Magic Mouse</h3>
+                        <div class="product-price">
+                            <span class="original-price">$79.00</span>
+                            <span class="sale-price">$59.00</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(53)</span>
+                        </div>
+                        <button class="btn add-to-cart"
+                                data-id="magic-mouse"
+                                data-name="Magic Mouse"
+                                data-price="59.00"
+                                data-image="../images/ryan-putra-j4PqlNVZ4Bc-unsplash.jpg">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Keep up with the Most Recent Products We Offer</h2>
+                <p>Join our newsletter to be the first to know about special deals and new changes in tech</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>TechnHub</h3>
+                    <p>Your trusted source for the latest technology products and accessories.</p>
+                    <div class="social-icons">
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/Web Pages/Product.html">Products</a></li>
+                        <li><a href="/Web Pages/AboutUs.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="/Web Pages/Shipping and Delivery.html">Shipping Policy</a></li>
+                        <li><a href="/Web Pages/Returns and Refunds page.html">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                     <li><i class="fas fa-map-marker-alt"></i> TMUC Peshawar, DHA, NasirBagh Road</li>
+                     <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                     <li><i class="fas fa-envelope"></i> iafnankhan.23@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Cart Management System
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize cart from localStorage or empty array
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            
+            // Product view toggle functionality
+            document.querySelectorAll('.view-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    const view = btn.dataset.view;
+                    const productsGrid = document.querySelector('.products-grid');
+                    
+                    if (view === 'grid') {
+                        productsGrid.classList.remove('list-view');
+                    } else {
+                        productsGrid.classList.add('list-view');
+                    }
+                });
+            });
+            
+            // Add to Cart functionality
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', function() {
+                    // Get product data from attributes
+                    const product = {
+                        id: this.dataset.id,
+                        name: this.dataset.name,
+                        price: parseFloat(this.dataset.price),
+                        image: this.dataset.image,
+                        quantity: 1
+                    };
+                    
+                    // Check if item already exists in cart
+                    const existingItem = cart.find(item => item.id === product.id);
+                    
+                    if (existingItem) {
+                        existingItem.quantity += 1;
+                    } else {
+                        cart.push(product);
+                    }
+                    
+                    // Save to localStorage
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                    
+                    // Update cart count
+                    updateCartCount();
+                    
+                    // Visual feedback
+                    const originalText = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-check"></i> Added!';
+                    this.classList.add('added-to-cart');
+                    
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                        this.classList.remove('added-to-cart');
+                    }, 2000);
+                });
+            });
+            
+            // Update cart count display
+            function updateCartCount() {
+                const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+                document.querySelectorAll('.cart-count').forEach(el => {
+                    el.textContent = totalItems;
+                });
+            }
+            
+            // Initialize cart count on page load
+            updateCartCount();
+        });
+    </script>
+</body>
+</html>
